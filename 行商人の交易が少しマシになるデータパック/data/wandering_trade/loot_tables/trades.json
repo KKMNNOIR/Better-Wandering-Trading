@@ -1,0 +1,765 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:netherrack\"},buy:{id:\"minecraft:emerald\",Count:3b}},Trade:sell}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 6
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:soul_sand\"},buy:{id:\"minecraft:emerald\",Count:6b}},Trade:sell}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:nether_brick\"},buy:{id:\"minecraft:emerald\",Count:1b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 16
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:nether_bricks\"},buy:{id:\"minecraft:emerald\",Count:4b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:bamboo\"},buy:{id:\"minecraft:emerald\",Count:5b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:gravel\"},buy:{id:\"minecraft:emerald\",Count:1b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 4
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:white_concrete_powder\"},buy:{id:\"minecraft:emerald\",Count:1b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 8
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.125
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:orange_concrete_powder\"},buy:{id:\"minecraft:emerald\",Count:1b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 8
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.125
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:magenta_concrete_powder\"},buy:{id:\"minecraft:emerald\",Count:1b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 8
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.125
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:light_blue_concrete_powder\"},buy:{id:\"minecraft:emerald\",Count:1b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 8
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.125
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:yellow_concrete_powder\"},buy:{id:\"minecraft:emerald\",Count:1b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 8
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.125
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:lime_concrete_powder\"},buy:{id:\"minecraft:emerald\",Count:1b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 8
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.125
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:pink_concrete_powder\"},buy:{id:\"minecraft:emerald\",Count:1b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 8
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.125
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:gray_concrete_powder\"},buy:{id:\"minecraft:emerald\",Count:1b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 8
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.125
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:light_gray_concrete_powder\"},buy:{id:\"minecraft:emerald\",Count:1b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 8
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.125
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:cyan_concrete_powder\"},buy:{id:\"minecraft:emerald\",Count:1b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 8
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.125
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:purple_concrete_powder\"},buy:{id:\"minecraft:emerald\",Count:1b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 8
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.125
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:blue_concrete_powder\"},buy:{id:\"minecraft:emerald\",Count:1b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 8
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.125
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:brown_concrete_powder\"},buy:{id:\"minecraft:emerald\",Count:1b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 8
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.125
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:green_concrete_powder\"},buy:{id:\"minecraft:emerald\",Count:1b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 8
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.125
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:red_concrete_powder\"},buy:{id:\"minecraft:emerald\",Count:1b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 8
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.125
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:black_concrete_powder\"},buy:{id:\"minecraft:emerald\",Count:1b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 8
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.125
+						}
+					]
+				},				
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:magma_cream\"},buy:{id:\"minecraft:emerald\",Count:4b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:end_stone\"},buy:{id:\"minecraft:emerald\",Count:3b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:melon\"},buy:{id:\"minecraft:emerald\",Count:1b}},Trade:sell}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:nether_wart\"},buy:{id:\"minecraft:emerald\",Count:5b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 8
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:sandstone\"},buy:{id:\"minecraft:emerald\",Count:1b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 4
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:red_sandstone\"},buy:{id:\"minecraft:emerald\",Count:1b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 4
+						}
+					]
+				},				
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:cod_bucket\"},buy:{id:\"minecraft:emerald\",Count:5b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:salmon_bucket\"},buy:{id:\"minecraft:emerald\",Count:5b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 1
+						}
+					]
+				},		
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:potato\"},buy:{id:\"minecraft:emerald\",Count:2b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 8
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:carrot\"},buy:{id:\"minecraft:emerald\",Count:2b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 6
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:snow_block\"},buy:{id:\"minecraft:emerald\",Count:3b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:iron_ingot\"},buy:{id:\"minecraft:emerald\",Count:4b}},Trade:sell}"
+						},
+						{
+							"function":"minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:gold_ingot\"},buy:{id:\"minecraft:emerald\",Count:4b}},Trade:sell}"
+						},
+						{
+							"function":"minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:diamond\"},buy:{id:\"minecraft:emerald\",Count:5b}},Trade:sell}"
+						},
+						{
+							"function":"minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:lapis_lazuli\"},buy:{id:\"minecraft:emerald\",Count:4b}},Trade:sell}"
+						},
+						{
+							"function":"minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 6
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:redstone\"},buy:{id:\"minecraft:emerald\",Count:4b}},Trade:sell}"
+						},
+						{
+							"function":"minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 5
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:quartz\"},buy:{id:\"minecraft:emerald\",Count:4b}},Trade:sell}"
+						},
+						{
+							"function":"minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 6
+							}
+						}
+					]
+				},				
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:magma_block\"},buy:{id:\"minecraft:emerald\",Count:4b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:mycelium\"},buy:{id:\"minecraft:emerald\",Count:3b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 3
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:obsidian\"},buy:{id:\"minecraft:emerald\",Count:3b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:cocoa_beans\"},buy:{id:\"minecraft:emerald\",Count:3b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:clay_ball\"},buy:{id:\"minecraft:emerald\",Count:5b}},Trade:sell}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 4
+						}
+					]
+				}
+			]
+		}
+	]
+}
