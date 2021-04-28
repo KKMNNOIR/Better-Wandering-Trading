@@ -967,6 +967,74 @@
 							"count": 1
 						}
 					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:wet_sponge\",buy:{id:\"minecraft:emerald\",Count:3b}}}}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					] 
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:prismarine\",buy:{id:\"minecraft:emerald\",Count:4b}}}}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					] 
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:prismarine_bricks\",buy:{id:\"minecraft:emerald\",Count:4b}}}}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					] 
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:9999,TradeItem:{maxUses:16,sell:{id:\"minecraft:dark_prismarine\",buy:{id:\"minecraft:emerald\",Count:4b}}}}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					] 
 				}
 			]
 		}
